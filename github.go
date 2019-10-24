@@ -6,7 +6,7 @@ import (
 
 	"github.com/github/hub/github"
 	"github.com/shurcooL/githubv4"
-	"go.tmthrgd.dev/gomodpriv/internal/modfile"
+	"golang.org/x/mod/modfile"
 	"golang.org/x/oauth2"
 )
 

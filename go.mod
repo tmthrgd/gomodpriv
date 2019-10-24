@@ -12,7 +12,7 @@ require (
 	github.com/mitchellh/go-homedir v1.1.0 // indirect
 	github.com/shurcooL/githubv4 v0.0.0-20190601194912-068505affed7
 	github.com/shurcooL/graphql v0.0.0-20181231061246-d48a9a75455f // indirect
-	golang.org/x/crypto v0.0.0-20190621222207-cc06ce4a13d4 // indirect
+	golang.org/x/mod v0.1.1-0.20191022205522-8ecbfe1280cc
 	golang.org/x/oauth2 v0.0.0-20190604053449-0f29369cfe45
 	gopkg.in/check.v1 v1.0.0-20180628173108-788fd7840127 // indirect
 	gopkg.in/yaml.v2 v2.2.2 // indirect
