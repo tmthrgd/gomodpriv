@@ -1,6 +1,6 @@
 module go.tmthrgd.dev/gomodpriv
 
-go 1.18
+go 1.22.0
 
 require (
 	github.com/github/hub v2.11.2+incompatible
