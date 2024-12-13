@@ -18,19 +18,11 @@ The GOPRIVATE environment variable is set to a list of all private repositories
 owned by the current GitHub user. It reads `go.mod` files in the root
 directory, to handle any custom import paths.
 
+The environment variable is set for go commands with the `go env` command.
+
 When run for the first time you will be prompted for your GitHub username and
 password. Your password is not stored, but instead used to request an Oauth2
 token.
-
-By default the list of private repositories are cached for faster terminal
-start-ups. The cache can be refreshed by running **gomodpriv** directly, or
-adding `-cache=false` to the `.bashrc` line below.
-
-Add the following to your `.bashrc` file to set the GOPRIVATE environment
-variable when a terminal is opened:
-```bash
-export GOPRIVATE=$(gomodpriv -env)
-```
 
 If you want the list of private repositories to be refreshed periodically,
 ensure **gomodpriv** is run at start-up or upon login. Otherwise it can be run
